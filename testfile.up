@@ -1,0 +1,6 @@
+PRINT "Hi"
+str x "hello"
+print x
+input y "Name?  "
+print "you are "
+print y
