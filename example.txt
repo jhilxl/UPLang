@@ -1,0 +1,14 @@
+#The following is an example using all possible features of UPLang so far, copy it without this comment to try it.
+
+str yo "years old."
+INPUT name "Hello, what's your name? "
+PRINT "Hello,"
+PRINT name
+INPUT age "How old are you? "
+PRINT "You are"
+PRINT age
+PRINT yo
+INT x 25
+PRINT "I am"
+PRINT x
+PRINT yo
