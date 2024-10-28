@@ -1,4 +1,4 @@
-#The following is an example using all possible features of UPLang so far, copy it without this comment to try it.
+#The following is an example using all possible features of UPLang so far, copy it into the UPLang Editor without this comment to see it in action.
 
 str yo "years old."
 INPUT name "Hello, what's your name? "
