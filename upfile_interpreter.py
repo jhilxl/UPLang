@@ -51,6 +51,15 @@ def interpreter(tokens):
             prompt_text = " ".join(token[2:])[1:-1]
             userinput = input(prompt_text)
             variables[var_name] = userinput
+        
+        elif command == "CHECK":
+            if token[2] == "=" and variables[token[1]] == variables[token[3]]:
+                print(token[5:])[1:-1]
+            elif token[2] == "!=" and variables[token[1]] != variables[token[3]]:
+                print(token[6])
+            else:
+                print(f"Unkown operator: "+ token[2])
+
         else:
             print(f"Unkown command: " + command)
 
@@ -63,6 +72,7 @@ def runcode():
 window = ctk.CTk()
 window.geometry("350x300")
 window.title("UPfile Interpreter")
+window.iconbitmap("UPLanglogo.ico")
 
 title = ctk.CTkLabel(window, text="UPfile (.up) Interpreter", font=("Arial", 18))
 sp0 = ctk.CTkLabel(window, text="  ")
