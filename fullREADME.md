@@ -20,7 +20,7 @@ note: commands can be lowercase or uppercase, it is not case-sensitive.
 
 <code>INPUT name "What's your name?"</code>  -  INPUT indicates that the program should expect for a user input in response to the text in qoutes and this should be stored in the variable in between INPUT and the qouted text, in this case "name".
 
-<code>CHECK a = b "Equal" "Not equal"<code> - CHECK works like an IF statement where != (not equal) or = (equal) can be used as operators to compare variables (that have already been defined, or raw integers but not raw strings yet). If the condition is satisfied the first qoute "Equal" will be output otherwise the second qoute "Not equal" will be output. Unfortunately the logic of my code cannot accomodate more than one word for the first qoute but this is an open-source project for a reason, please do not hesitate to take a look and mess around.
+<code>CHECK a = b "Equal" "Not equal"</code> - CHECK works like an IF statement where != (not equal) or = (equal) can be used as operators to compare variables (that have already been defined, or raw integers but not raw strings yet). If the condition is satisfied the first qoute "Equal" will be output otherwise the second qoute "Not equal" will be output. Unfortunately the logic of my code cannot accomodate more than one word for the first qoute but this is an open-source project for a reason, please do not hesitate to take a look and mess around.
 
 
 
